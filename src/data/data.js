@@ -2,7 +2,7 @@
 
 const data = {
     name: "Veronica Leonova",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    bio: "Bachelor's of Design in City Innovation Student at the School of Architecture, Planning and Landscape.",
     contact: {
         email: "veronica.leonova@ucalgary.ca",
         phone: "(587) 717-0858",

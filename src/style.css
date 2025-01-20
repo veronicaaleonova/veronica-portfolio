@@ -3,8 +3,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
 }
 
 * {
@@ -37,20 +37,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #000000;
   color: white;
   z-index: 10;
 }
 
 a {
   /* Link styling */
-  color: #8da3eb;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
   /* Link hover effects */
-  color: #4c6aca;
+  color: #ffffff;
   text-decoration: underline;
   transition: 0.2s;
 }
@@ -95,8 +95,8 @@ h1 {
 #model1,
 #model2,
 #model3 {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 350px;
   margin-right: 3em;
   margin-left: 6em;
   border: 1px solid #ccc;
@@ -106,7 +106,7 @@ img {
   /* Image dimensions and margin */
   height: 120px;
   width: 120px;
-  margin: 0.5em;
+  margin: 0em;
 }
 
 #images {

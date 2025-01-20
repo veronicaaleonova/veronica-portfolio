@@ -16,11 +16,10 @@ const trees = [
   "./treeDrawings/tree4.jpg",
 ];
 
-const houses = [
-  "./houseDrawings/house1.jpg",
-  "./houseDrawings/house2.jpg",
-  "./houseDrawings/house3.jpg",
-  "./houseDrawings/house4.jpg",
+const grounds = [
+  "./Assignment 01/ground1.png",
+  "./Assignment 01/ground2.png",
+  "./Assignment 01/ground3.png",
 ];
 
 document.querySelector("#app").innerHTML = `
@@ -32,19 +31,25 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Model 1
+      Constructivism Within the Urban Fabric
         <div class="three-model">
-          <img src="./DSGN 311_A1.png" id="model1" alt="Model 1 Image" />
+        <a href="./DSGN 311_A1.png" target="_blank"> 
+        <img src="./DSGN 311_A1.png" id="model1" alt="Model 1 Image" />
+          </a>
         </div>
-        <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
+           <div>
+           <a href="./Assignment 01/ground1.png" target="_blank">
+           <img src="./Assignment 01/ground1.png" alt="ground1" />
+          </a>
+          <a href="./Assignment 01/ground2.png" target="_blank">
+           <img src="./Assignment 01/ground2.png" alt="ground2" />
+          </a>
+          <a href="./Assignment 01/ground3.png" target="_blank">
+           <img src="./Assignment 01/ground3.png" alt="ground3" />
+          </a>
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">My “Cadavre Exquis” is an exploration of Constructivism within the Urban Fabric. Constructivism, a design movement that originated in Russia in the 1920s, is characterized by the combination of mechanical objects into abstract, mobile structural forms. This style prioritizes functionality, rejecting the notion of art as a solitary practice, and instead envisions art as a tool for social change. It is defined by bold colors, geometric shapes, and an emphasis on industrial themes.</h4>
         </div>
       </div>
 
